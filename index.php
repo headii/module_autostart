@@ -298,7 +298,13 @@ Loading, please wait...
                     <td style="padding-right:10px"><?=$opt_responder[$opt][2]?></td>
                     <td nowrap></td>
                 </tr>
-               				
+                <!-- // OPTION M18:Responder --> 
+                <tr>
+                    <? $opt = "M18"; ?>
+                    <td><input type="checkbox" name="options[]" value="<?=$opt?>" <? if ($opt_responder[$opt][0] == "1") echo "checked" ?> ></td>
+                    <td style="padding-right:10px"><?=$opt_responder[$opt][2]?></td>
+                    <td nowrap></td>
+                </tr>               				
             </table>
             </div>
 

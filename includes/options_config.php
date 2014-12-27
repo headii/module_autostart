@@ -21,6 +21,7 @@ $opt_responder["M14"][0] = 0;
 $opt_responder["M15"][0] = 0;
 $opt_responder["M16"][0] = 0;
 $opt_responder["M17"][0] = 0;
+$opt_responder["M18"][0] = 0;
 
 
 // Alias
@@ -45,6 +46,7 @@ $opt_responder["M14"][2] = "3g_4g";
 $opt_responder["M15"][2] = "Nessus";
 $opt_responder["M16"][2] = "Tor";
 $opt_responder["M17"][2] = "Phishing";
+$opt_responder["M18"][2] = "Responder";
 
 
 
@@ -53,7 +55,7 @@ $opt_responder["M17"][2] = "Phishing";
 $opt_responder["S1"][3] = "/scripts/status_wireless.php?service=wireless&action=start";
 $opt_responder["S2"][3] = "/modules/karma/includes/module_action.php?service=karma&action=start&page=status";
 $opt_responder["S3"][3] = "/modules/mana/includes/module_action.php?service=mana&action=start&page=status";
-$opt_responder["S4"][3] = "/modules/responder/includes/module_action.php?service=responder&action=start&page=status";
+$opt_responder["S4"][3] = "/modules/supplicant/includes/module_action.php?service=supplicant&action=start&page=status";
 $opt_responder["M1"][3] = "/modules/ngrep/includes/module_action.php?service=ngrep&action=start&page=status";
 $opt_responder["M2"][3] = "/modules/sslstrip/includes/module_action.php?service=sslstrip&action=start&page=status";
 $opt_responder["M3"][3] = "/modules/dnsspoof/includes/module_action.php?service=dnsspoof&action=start&page=status";
@@ -71,6 +73,7 @@ $opt_responder["M14"][3] = "/modules/3g_4g/includes/module_action.php?service=3g
 $opt_responder["M15"][3] = "/modules/nessus/includes/module_action.php?service=nessus&action=start&page=status";
 $opt_responder["M16"][3] = "/modules/tor/includes/module_action.php?service=tor&action=start&page=status";
 $opt_responder["M17"][3] = "/modules/phishing/includes/module_action.php?service=phishing&action=start&page=status";
+$opt_responder["M18"][3] = "/modules/responder/includes/module_action.php?service=responder&action=start&page=status";
 
 
 /*
@@ -108,5 +111,6 @@ $opt_responder["M14"][1] = 0;
 $opt_responder["M15"][1] = 0;
 $opt_responder["M16"][1] = 0;
 $opt_responder["M17"][1] = 0;
+$opt_responder["M18"][1] = 0;
 
 ?>
